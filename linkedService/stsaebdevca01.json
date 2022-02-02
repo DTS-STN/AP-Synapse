@@ -1,0 +1,17 @@
+{
+    "name": "stsaebdevca01",
+    "type": "Microsoft.Synapse/workspaces/linkedservices",
+    "properties": {
+        "description": "connect to storage account stsaebdevca01",
+        "annotations": [],
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=stsaebdevca01;",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VANEVBMTUxNjMtRUU2My00OUQ4LTg3QkEtNDA4QUI0NDUwMDM2X2YzZjAzZmUxLTY5YjAtNDFlZS05ZTg1LTgzNGZlZThmNzg0OSINCn0="
+        },
+        "connectVia": {
+            "referenceName": "AutoResolveIntegrationRuntime",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}
