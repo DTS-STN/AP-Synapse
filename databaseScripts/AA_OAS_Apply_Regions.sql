@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[AA_OAS_Apply_Regions]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[AA_OAS_Apply_Regions]
 ( 
 	[region] [nvarchar](256)  NULL,
