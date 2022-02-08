@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[AA_OAS_Apply_LinkClicks]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[AA_OAS_Apply_LinkClicks]
 ( 
 	[page_title_id] [int]  NULL,
