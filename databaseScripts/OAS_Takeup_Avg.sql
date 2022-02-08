@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[OAS_Takeup_Avg]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[OAS_Takeup_Avg]
 ( 
 	[province] [nvarchar](256)  NULL,
