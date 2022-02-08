@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[Pop_CountsProjections_Sum]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[Pop_CountsProjections_Sum]
 ( 
 	[geo] [nvarchar](256)  NULL,
