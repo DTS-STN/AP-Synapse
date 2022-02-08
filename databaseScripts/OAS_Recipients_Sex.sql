@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[OAS_Recipients_Sex]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[OAS_Recipients_Sex]
 ( 
 	[benefit] [nvarchar](256)  NULL,
