@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[17100005_PopEstimates_SC]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[17100005_PopEstimates_SC]
 ( 
 	[year] [int]  NULL,
