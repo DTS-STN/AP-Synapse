@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS [dbo].[OAS_NewBenefits_Summary]
-GO
-
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE TABLE [dbo].[OAS_NewBenefits_Summary]
 ( 
 	[province] [nvarchar](256)  NULL,
