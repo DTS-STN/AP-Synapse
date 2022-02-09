@@ -1633,76 +1633,6 @@
 			</Relationship>
 			<AttachedAnnotation Disambiguator="9" />
 		</Element>
-		<Element Type="SqlTable" Name="[dbo].[gk_test]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
-			<Relationship Name="Columns">
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[gk_test].[year]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[int]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[gk_test].[month]">
-						<Relationship Name="TypeSpecifier">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[int]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-			</Relationship>
-			<Relationship Name="Schema">
-				<Entry>
-					<References ExternalSource="BuiltIns" Name="[dbo]" />
-				</Entry>
-			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="10" />
-		</Element>
-		<Element Type="SqlColumnStoreIndex" Name="[dbo].[gk_test].[ClusteredIndex_00000000000000000000000000000000]">
-			<Property Name="IsClustered" Value="True" />
-			<Relationship Name="ColumnSpecifications">
-				<Entry>
-					<Element Type="SqlIndexedColumnSpecification">
-						<Relationship Name="Column">
-							<Entry>
-								<References Name="[dbo].[gk_test].[year]" />
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlIndexedColumnSpecification">
-						<Relationship Name="Column">
-							<Entry>
-								<References Name="[dbo].[gk_test].[month]" />
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-			</Relationship>
-			<Relationship Name="IndexedObject">
-				<Entry>
-					<References Name="[dbo].[gk_test]" />
-				</Entry>
-			</Relationship>
-			<AttachedAnnotation Disambiguator="10" />
-		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_NewBenefits_ProvType]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
@@ -1839,7 +1769,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="11" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="10" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_NewBenefits_ProvType].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -1922,7 +1852,7 @@
 					<References Name="[dbo].[OAS_NewBenefits_ProvType]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="11" />
+			<AttachedAnnotation Disambiguator="10" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_NewBenefits_Summary]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2060,7 +1990,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="12" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="11" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_NewBenefits_Summary].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -2143,7 +2073,7 @@
 					<References Name="[dbo].[OAS_NewBenefits_Summary]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="12" />
+			<AttachedAnnotation Disambiguator="11" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Recipients_ProvType]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2280,7 +2210,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="13" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="12" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Recipients_ProvType].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -2363,7 +2293,7 @@
 					<References Name="[dbo].[OAS_Recipients_ProvType]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="13" />
+			<AttachedAnnotation Disambiguator="12" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Recipients_ProvType_summary]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2468,7 +2398,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="14" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="13" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Recipients_ProvType_summary].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -2533,7 +2463,7 @@
 					<References Name="[dbo].[OAS_Recipients_ProvType_summary]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="14" />
+			<AttachedAnnotation Disambiguator="13" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Recipients_Sex]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2654,7 +2584,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="15" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="14" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Recipients_Sex].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -2728,7 +2658,7 @@
 					<References Name="[dbo].[OAS_Recipients_Sex]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="15" />
+			<AttachedAnnotation Disambiguator="14" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Takeup_Avg]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2802,7 +2732,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="16" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="15" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Takeup_Avg].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -2849,7 +2779,7 @@
 					<References Name="[dbo].[OAS_Takeup_Avg]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="16" />
+			<AttachedAnnotation Disambiguator="15" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Takeup_Country]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3130,7 +3060,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="17" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="16" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Takeup_Country].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -3294,7 +3224,7 @@
 					<References Name="[dbo].[OAS_Takeup_Country]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="17" />
+			<AttachedAnnotation Disambiguator="16" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[OAS_Takeup_Regional]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3511,7 +3441,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="18" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="17" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[OAS_Takeup_Regional].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -3639,7 +3569,7 @@
 					<References Name="[dbo].[OAS_Takeup_Regional]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="18" />
+			<AttachedAnnotation Disambiguator="17" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Pop_CountsProjections_SC]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3729,7 +3659,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="19" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="18" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[Pop_CountsProjections_SC].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -3785,7 +3715,7 @@
 					<References Name="[dbo].[Pop_CountsProjections_SC]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="19" />
+			<AttachedAnnotation Disambiguator="18" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Pop_CountsProjections_Sum]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3955,7 +3885,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="20" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="19" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[Pop_CountsProjections_Sum].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -4056,7 +3986,7 @@
 					<References Name="[dbo].[Pop_CountsProjections_Sum]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="20" />
+			<AttachedAnnotation Disambiguator="19" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Pop_EstProjections_SC]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -4260,7 +4190,7 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="21" />
+			<Annotation Type="SqlInlineIndexAnnotation" Disambiguator="20" />
 		</Element>
 		<Element Type="SqlColumnStoreIndex" Name="[dbo].[Pop_EstProjections_SC].[ClusteredIndex_00000000000000000000000000000000]">
 			<Property Name="IsClustered" Value="True" />
@@ -4379,7 +4309,7 @@
 					<References Name="[dbo].[Pop_EstProjections_SC]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="21" />
+			<AttachedAnnotation Disambiguator="20" />
 		</Element>
 	</Model>
 </DataSchemaModel>
