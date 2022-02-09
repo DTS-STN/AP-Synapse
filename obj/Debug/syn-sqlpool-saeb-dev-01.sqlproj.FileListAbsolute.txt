@@ -1,0 +1,10 @@
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\bin\Debug\syn-sqlpool-saeb-dev-01.dacpac
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\bin\Debug\syn_sqlpool_saeb_dev_01.dll
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\bin\Debug\syn_sqlpool_saeb_dev_01.pdb
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\syn-sqlpool-saeb-dev-01.sqlproj.AssemblyReference.cache
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\Model.xml
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\refactor.xml
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\postdeploy.sql
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\predeploy.sql
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\syn_sqlpool_saeb_dev_01.dll
+C:\Users\ardhindsa@deloitte.ca\source\repos\syn-sqlpool-saeb-dev-01\syn-sqlpool-saeb-dev-01\obj\Debug\syn_sqlpool_saeb_dev_01.pdb
