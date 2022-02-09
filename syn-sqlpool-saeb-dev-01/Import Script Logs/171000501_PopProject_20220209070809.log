@@ -1,0 +1,12 @@
+2/9/2022 12:08:09 PM	This log contains information about the import operation of the script '171000501_PopProjections_SC.sql' into project 'syn-sqlpool-saeb-dev-01' on computer 'CAW2109379' by user'ardhindsa.
+2/9/2022 12:08:09 PM	Started importing file: C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\AP-Synapse\dbo\Tables\171000501_PopProjections_SC.sql 
+2/9/2022 12:08:09 PM	File name C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\AP-Synapse\dbo\Tables\171000501_PopProjections_SC.sql (size: 340)
+2/9/2022 12:08:09 PM	Parsing import script
+2/9/2022 12:08:09 PM	Total number of batches in script: 1
+2/9/2022 12:08:09 PM	Total number of statements in script: 1
+2/9/2022 12:08:09 PM	The script was successfully imported into the project.
+2/9/2022 12:08:09 PM	Analyzing schema objects...
+2/9/2022 12:08:09 PM	Scanning project for duplicate elements
+2/9/2022 12:08:09 PM	Finished duplicate element processing
+2/9/2022 12:08:09 PM	A summary of the import was saved to the following location: C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\GitHub\AP-Synapse\syn-sqlpool-saeb-dev-01\Import Script Logs\171000501_PopProject_20220209070809.log
+2/9/2022 12:08:09 PM	Click Finish to continue...

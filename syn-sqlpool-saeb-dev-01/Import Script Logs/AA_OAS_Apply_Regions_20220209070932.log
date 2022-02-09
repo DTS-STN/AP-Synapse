@@ -1,0 +1,12 @@
+2/9/2022 12:09:32 PM	This log contains information about the import operation of the script 'AA_OAS_Apply_Regions.sql' into project 'syn-sqlpool-saeb-dev-01' on computer 'CAW2109379' by user'ardhindsa.
+2/9/2022 12:09:32 PM	Started importing file: C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\AP-Synapse\dbo\Tables\AA_OAS_Apply_Regions.sql 
+2/9/2022 12:09:32 PM	File name C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\AP-Synapse\dbo\Tables\AA_OAS_Apply_Regions.sql (size: 361)
+2/9/2022 12:09:32 PM	Parsing import script
+2/9/2022 12:09:32 PM	Total number of batches in script: 1
+2/9/2022 12:09:32 PM	Total number of statements in script: 1
+2/9/2022 12:09:32 PM	The script was successfully imported into the project.
+2/9/2022 12:09:32 PM	Analyzing schema objects...
+2/9/2022 12:09:32 PM	Scanning project for duplicate elements
+2/9/2022 12:09:32 PM	Finished duplicate element processing
+2/9/2022 12:09:33 PM	A summary of the import was saved to the following location: C:\Users\ardhindsa@deloitte.ca\OneDrive - Deloitte (O365D)\Documents\GitHub\AP-Synapse\syn-sqlpool-saeb-dev-01\Import Script Logs\AA_OAS_Apply_Regions_20220209070932.log
+2/9/2022 12:09:33 PM	Click Finish to continue...
