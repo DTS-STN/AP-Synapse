@@ -79,5 +79,7 @@
     <Build Include="dbo\Tables\Pop_CountsProjections_SC.sql" />
     <Build Include="dbo\Tables\Pop_EstProjections_SC.sql" />
     <Build Include="dbo\Tables\Pop_CountsProjections_Sum.sql" />
+    <Build Include="dbo\Tables\Test_Table1.sql" />
+    <Build Include="dbo\Tables\Test_Table2.sql" />
   </ItemGroup>
 </Project>
