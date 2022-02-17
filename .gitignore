@@ -1,0 +1,21 @@
+#ignore the contents of .vs folder
+**/.vs
+
+#ignore the contents of .vs folder in syn-sqlpool-saeb-dev-01
+**/syn-sqlpool-saeb-dev-01/.vs
+
+#ignore log files
+**/syn-sqlpool-saeb-dev-01/Import Script Logs
+
+#ignore the contents of .obj folder in syn-sqlpool-saeb-dev-01
+**/syn-sqlpool-saeb-dev-01/obj
+
+#ingonre files in bin/Debug folder under syn-sqlpool-saeb-dev-01
+syn-sqlpool-saeb-dev-01/bin/Debug/*.pdb
+syn-sqlpool-saeb-dev-01/bin/Debug/*.dll
+
+#ignore vs files
+syn-sqlpool-saeb-dev-01/*.dbmdl
+syn-sqlpool-saeb-dev-01/*.jfm
+syn-sqlpool-saeb-dev-01/*.user
+syn-sqlpool-saeb-dev-01/*.sqlproj
